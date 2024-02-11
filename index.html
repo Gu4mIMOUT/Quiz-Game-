@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Con este Quiz Game podras aprender inglés de una manera un emocionante"
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>¡QUIZ GAME!</h1>
+        <P>Aprende los colores en inglés</P>
+    </header>
+<div class="container">
+    <section id="p0">
+        <h3>1. ¿Comó se dice Azul en Inglés?</h3>
+        <label>
+            <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Red
+        </label>
+        <label>
+            <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Blue
+        </label>
+        <label>
+            <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Yellow
+        </label>
+        <label>
+            <input type="radio" value="4" name="p0" onclick="respuesta(0,this)"> Purple
+        </label>
+    </section>
+<section id="p1">
+        <h3>2. ¿Comó se dice Rojo en Inglés?</h3>
+        <label>
+            <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Black
+        </label>
+        <label>
+            <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Orange
+        </label>
+        <label>
+            <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Yellow
+        </label>
+        <label>
+            <input type="radio" value="4" name="p1" onclick="respuesta(1,this)"> Red
+        </label>
+    </section>
+    <section id="p2">
+        <h3>3. ¿Comó se dice Amarillo en Inglés?</h3>
+        <label>
+            <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Green
+        </label>
+        <label>
+            <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Purple
+        </label>
+        <label>
+            <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> White
+        </label>
+        <label>
+            <input type="radio" value="4" name="p2" onclick="respuesta(2,this)"> Yellow
+        </label>
+    </section>
+    <section id="p3">
+        <h3>4. ¿Comó se dice Naranjado en Inglés?</h3>
+        <label>
+            <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Blue
+        </label>
+        <label>
+            <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Orange
+        </label>
+        <label>
+            <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Brown
+        </label>
+        <label>
+            <input type="radio" value="4" name="p3" onclick="respuesta(3,this)"> Pink
+        </label>
+    </section>
+<section id="p4">
+        <h3>5. ¿Comó se dice Rosado en Inglés?</h3>
+        <label>
+            <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Brown
+        </label>
+        <label>
+            <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Blue
+        </label>
+        <label>
+            <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Pink
+        </label>
+        <label>
+            <input type="radio" value="4" name="p4" onclick="respuesta(4,this)"> Purple
+        </label>
+    </section>
+
+    <button onclick="corregir()" >CORREGIR</button>
+    <h2>Respuestas correctas: <span id="resultado"></span></h2>
+
+</div>
+
+<script src="scripy.js"></script>
+</body>
+</html>
